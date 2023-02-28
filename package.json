@@ -1,6 +1,6 @@
 {
   "name": "nodejs-server",
-  "description": "",
+  "description": "<img src=\"https://cheatcode-assets.s3.amazonaws.com/cheatcode-logo-sm.svg\" alt=\"CheatCode\">",
   "main": "./dist/index.js",
   "scripts": {
     "reset": "cross-env NODE_ENV=development node -r @babel/register ./.app/reset.js",
@@ -54,12 +54,16 @@
     "jsonwebtoken": "^8.5.1",
     "juice": "^8.0.0",
     "mongo-uri-tool": "^1.0.1",
-    "mongodb": "^4.2.0",
+    "mongodb": "^4.14.0",
     "nodemailer": "^6.7.2",
     "ps-node": "^0.1.6",
     "query-string": "^8.1.0",
     "serve-favicon": "^2.5.0",
     "speakingurl": "^14.0.1",
     "ws": "^8.12.1"
+  },
+  "version": "1.0.0",
+  "directories": {
+    "lib": "lib"
   }
 }
